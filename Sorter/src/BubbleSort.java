@@ -1,4 +1,3 @@
-
 class BubbleSort {
 	void bubbleSort(int arr[])
 	{
@@ -28,6 +27,7 @@ class BubbleSort {
 		BubbleSort ob = new BubbleSort();
 		int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
 		ob.bubbleSort(arr);
+
 
 		System.out.println("Bubble Sort");
 		ob.printArray(arr);
